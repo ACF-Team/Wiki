@@ -1,0 +1,66 @@
+# ----------------------------
+
+# Jekyll / GitHub Pages
+
+# ----------------------------
+
+# Build output (DO NOT COMMIT)
+
+_site/
+
+# Jekyll cache
+
+.jekyll-cache/
+.jekyll-metadata
+
+# Sass cache
+
+.sass-cache/
+
+# ----------------------------
+
+# Ruby / Bundler
+
+# ----------------------------
+
+.bundle/
+vendor/bundle/
+vendor/cache/
+vendor/gems/
+vendor/ruby/
+
+# ----------------------------
+
+# Node (optional tooling)
+
+# ----------------------------
+
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ----------------------------
+
+# OS junk
+
+# ----------------------------
+
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+
+# Editor / IDE
+
+# ----------------------------
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------------
+
+# Logs & temp
+
+# ----------------------------
