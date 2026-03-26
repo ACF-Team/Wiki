@@ -29,7 +29,7 @@ Visit the [official download link](https://docs.GitHub.com/en/desktop/installing
    ![alt text](mac-choose-settings.png)
 2. In the "Settings" window, on the **Accounts** pane, click the appropriate "Sign Into" button. Use **Sign Into GitHub Enterprise** to sign into GitHub Enterprise Server or GitHub Enterprise Cloud with data residency.
 
-   ![alt text](sign-in-GitHub.png)
+   ![alt text](sign-in-github.png)
 3. If you are signing into an account on GitHub Enterprise, in the "Sign in" modal window, type the URL where you access GitHub, then click **Continue**.
 4. In the "Sign in Using Your Browser" modal window, click **Continue With Browser**. GitHub Desktop will open your default browser.
 5. To authenticate to GitHub, in the browser, type your credentials and click **Sign in**.
