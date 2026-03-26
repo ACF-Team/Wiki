@@ -1,5 +1,5 @@
 ---
-title: Installation
+title: Installing ACF
 parent: Getting Started
 nav_order: 1
 has_children: true

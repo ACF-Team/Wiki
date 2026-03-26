@@ -3,9 +3,6 @@ title: Home
 nav_order: 1
 ---
 
-# Wiki
+# ACF-3 Wiki
 
-Welcome to the documentation.
-
-## Pages
-- [Getting Started](getting-started)
+Welcome to the ACF-3 Wiki.

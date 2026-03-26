@@ -1,7 +1,7 @@
-title: Wiki
+title: ACF-3 Wiki
 description: Project documentation
 
-url: https://lengthenedgradient.github.io
+url: https://lengthenedgradient.GitHub.io
 baseurl: /Wiki
 
 remote_theme: just-the-docs/just-the-docs
@@ -15,16 +15,24 @@ nav_expand: true
 # Callout configuration
 callouts:
   highlight:
-    color: yellow
-  important:
     title: Important
-    color: blue
-  new:
-    title: New
+    color: yellow
+  notice:
+    title: Notice
     color: green
-  note:
-    title: Note
-    color: purple
   warning:
     title: Warning
     color: red
+
+color_scheme: dark
+
+back_to_top: true
+back_to_top_text: "Back to top"
+
+aux_links:
+  ACF-3 Discord:
+    - https://discord.gg/jf4cwarPUG
+  ACF-3 On Workshop:
+    - https://steamcommunity.com/sharedfiles/filedetails/?id=3248769144
+  ACF-3 On GitHub:
+    - https://GitHub.com/ACF-Team/ACF-3
