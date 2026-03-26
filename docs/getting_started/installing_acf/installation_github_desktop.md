@@ -11,6 +11,9 @@ We recommend you use this option if you would like to test the `dev` branch.
 {: .highlight }
 You will need to [create a GitHub Account](https://docs.GitHub.com/en/get-started/start-your-journey/creating-an-account-on-GitHub) unless you already have one.
 
+{: .highlight}
+Make sure to install [Wiremod](https://github.com/wiremod) and [Contraption Framework](https://github.com/ACF-Team/CFW) the same way.
+
 # What is GitHub Desktop?
 "GitHub Desktop is a free, open source application that helps you to work with code hosted on GitHub or other Git hosting services."
 
@@ -38,6 +41,9 @@ Visit the [official download link](https://docs.GitHub.com/en/desktop/installing
 
 2. Choose your gmod addons folder (should be somewhere like `C:\Program Files (x86)\Steam\steamapps\common\GarrysMod\garrysmod\addons\ACF-3`)
 ![alt text](gh_desktop_clone_button.png)
+
+{: .highlight}
+Make sure to install [Wiremod](https://github.com/wiremod) and [Contraption Framework](https://github.com/ACF-Team/CFW) the same way.
 
 # Updating your ACF-3 instance
 1. Click on the "Fetch Origin" button.
