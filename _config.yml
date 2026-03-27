@@ -12,6 +12,7 @@ plugins:
 
 search_enabled: true
 nav_expand: true
+favicon_ico: /assets/images/favicon.ico
 
 last-modified-at:
   date-format: '%d-%b-%y'

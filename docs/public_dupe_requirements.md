@@ -32,7 +32,7 @@ Visually optimize
 
 Follow ACF guidelines and restrictions
 - Restrictions are enabled by default. If you don't see any errors you are probably fine.
-- https://github.com/Valen-Sandbox/.github/blob/main/server-rules.md
+- [ACF guidelines (Valen rules)](https://github.com/Valen-Sandbox/.github/blob/main/server-rules.md)
 
 Please do not use imported obj models.
 
