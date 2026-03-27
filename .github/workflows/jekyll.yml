@@ -15,18 +15,21 @@ jobs:
 
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: 3.1
-          bundler-cache: true
+          ruby-version: 3.3
+          bundler-cache: false
+
+      - name: Add Linux platform to lockfile
+        run: bundle lock --add-platform x86_64-linux
 
       - name: Install dependencies
-        run: bundle install
+        run: bundle install --jobs 4 --retry 3
 
       - name: Build site
         run: bundle exec jekyll build
