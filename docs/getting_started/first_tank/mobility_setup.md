@@ -17,7 +17,7 @@ Select the "ACF Suspension Tool".
 
 `RIGHT CLICK` all your wheels in any order.
 
-![alt text](dupe_browser.webp)
+![alt text](../../dupe_browser.webp)
 
 # AIO
 
@@ -27,4 +27,4 @@ Hold `C` then `RIGHT CLICK` the AIO controller and select "Edit AIO Settings".
 
 Here, you can configure various settings about the AIO controller.
 
-![alt text](dupe_browser.webp)
+![alt text](../../dupe_browser.webp)

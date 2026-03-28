@@ -38,7 +38,7 @@ Here, the baseplate is the parent and the aio controller is the child.
 
 However, unlike welds, the child no longer collides with anything and the parent does not follow the child.
 
-![alt text](dupe_browser.webp)
+![alt text](../../dupe_browser.webp)
 
 # Advanced Duplicator 2
 Advanced Duplicator 2 helps you load and save your builds, similar to the default duplicator. Think of it like a blueprint for a vehicle you made.
@@ -63,4 +63,4 @@ Close the menu, look elsewhere and press `LEFT CLICK`. It should paste out the d
 
 You should never work on an unfrozen dupe. If you need to unfreeze for testing, you can dupe and paste a copy to test while keeping the original untouched.
 
-![alt text](dupe_browser.webp)
+![alt text](../../dupe_browser.webp)
