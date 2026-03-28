@@ -28,6 +28,8 @@ Gearboxes transfer power from the engine to the wheels.
 
 Select a transaxial CVT with these settings.
 
+![alt text](dupe_browser.webp)
+
 # Wheels
 
 {: .notice}
@@ -52,3 +54,5 @@ Press `R` to open the advanced menu, select "Rotation Functions" and select "Mir
 Next, select "Plane 1" and `SHIFT + LEFT CLICK` the "Rotate Entity" button.
 
 This "Mirrors" the wheel to the other side of the tank. Do the same for the other two wheels.
+
+![alt text](dupe_browser.webp)
