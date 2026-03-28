@@ -19,7 +19,7 @@ The baseplate is the core of any ACF-3 Contraption. Some uses of it are:
 
 Look at the baseplate and press `ALT + E`. If you set the settings right, you should be able to sit in a seat the baseplate provides.
 
-![alt text](../../dupe_browser.webp)
+![alt text](dupe_browser.webp)
 
 # All In One (AIO) Controllers
 AIO Controllers act like the brains of a vehicle. They are not required, but make it significantly easier for a new user to make a working vehicle.
@@ -37,4 +37,4 @@ Now if you look at the baseplate and press `ALT + E` again, the AIO will:
 - Setup a camera view above your baseplate
 - Initialize a HUD (with no information yet)
 
-![alt text](../../dupe_browser.webp)
+![alt text](dupe_browser.webp)
