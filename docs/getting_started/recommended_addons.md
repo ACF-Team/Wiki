@@ -18,6 +18,6 @@ If you are not familliar with those, please see the "[Getting Started](https://w
 > 
 > - [ACE](https://steamcommunity.com/sharedfiles/filedetails/?id=3333669763)
 >
-> - ACF2
+> - [ACF2](https://github.com/nrlulz/ACF)
 >
 > - Unofficial ACF-3 uploads

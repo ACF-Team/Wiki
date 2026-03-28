@@ -9,25 +9,15 @@ Precision Alignment helps you move and align props in a precise way.
 
 Using `SHIFT + E` and moving your mouse, try aligning your controller with your baseplate.
 
-![alt text](pa_physgun_align.png)
-
 Select the Precision Alignment tool from the menu (from the constraints category).
 
 Left click near the center of the baseplate. A cross should appear and be snapped to the center.
 
-![alt text](pa_construct_1.png)
-
 Move underneath the AIO Controller and `SHIFT + LEFT CLICK` it. Similarly, a second cross should appear and be snapped to the center.
-
-![alt text](pa_construct_2.png)
 
 Right click the controller, open the menu and click "move entity":
 
-![alt text](pa_menu_move.png)
-
 The AIO controller should be moved on top of the baseplate very precisely:
-
-![alt text](pa_entity_move.png)
 
 This is just a basic demonstration of PA; it is capable of much more. This [tutorial](https://www.youtube.com/watch?v=jghzk0ESLOU) goes into more depth.
 
@@ -36,11 +26,7 @@ Multi-Parent helps you reduce the physics and networking cost of many entities b
 
 Select the Mutli-Parent tool from the menu and make sure you have these settings.
 
-![alt text](parenting_menu.png)
-
 Left click the controller. It should be colored green (selected).
-
-![alt text](parenting_start.png)
 
 Right click the baseplate. The controller should return to normal.
 
@@ -63,15 +49,9 @@ The file browser at the top of the menu interacts with your dupe folder.
 
 Right click the `Advanced Duplicator 2` folder in the browser and select `New Folder`. Type `MyFirstTank` and press `Enter`.
 
-![alt text](advdupe2_menu.png)
-
 Close the menu and look at the baseplate. Hold `SHIFT + RIGHT CLICK` and a green box should appear. Then right click again. This should copy the AIO controller and the baseplate entities.
 
-![alt text](advdupe2_area.png)
-
 Next, right click the `MyFirstTank` folder and select "Save". Type `v1` and press `Enter`.
-
-![alt text](advdupe2_menu_2.png)
 
 The purpose of the `MyFirstTank` folder is to keep things organized. We recommend you have a folder for each vehicle, in case you make multiple versions.
 

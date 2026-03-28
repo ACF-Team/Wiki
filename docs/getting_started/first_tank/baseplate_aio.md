@@ -9,15 +9,9 @@ All ACF entities are meant to be spawned through the ACF menu.
 
 To get here, click `Entitites` -> `Baseplate`.
 
-![alt text](baseplate_before_set.png)
-
 Try setting the settings like so:
 
-![alt text](baseplate_after_set.png)
-
 Close the menu and left click, spawning the baseplate:
-
-![alt text](baseplate_spawn.png)
 
 The baseplate is the core of any ACF-3 Contraption. Some uses of it are:
 - Preventing other vehicles from driving through yours (collisions)
@@ -32,9 +26,7 @@ In the ACF menu, navigate to `Entities` -> `Controller` and place the AIO contro
 
 Let's link the aio controller to the baseplate:
 1. Right click the AIO controller (it should be colored green)
-    ![alt text](aio_before_link.png)
 2. Right click the baseplate (it should be uncolored now)
-    ![alt text](aio_after_link.png)
 3. Notice if you move your crosshair over the AIO controller, it will show what it is linked to:
     - The baseplate entity
     - The baseplate seat entity (the cube at the center of the baseplate)
@@ -42,4 +34,3 @@ Let's link the aio controller to the baseplate:
 Now if you look at the baseplate and press `ALT + E` again, the AIO will:
 - Setup a camera view above your baseplate
 - Initialize a HUD (with no information yet)
-    ![alt text](aio_cam_hud.png)

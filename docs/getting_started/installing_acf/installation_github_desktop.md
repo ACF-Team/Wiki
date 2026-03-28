@@ -19,6 +19,7 @@ Make sure to install [Wiremod](https://github.com/wiremod) and [Contraption Fram
 
 # Installing GitHub Desktop
 Visit the [official download link](https://docs.GitHub.com/en/desktop/installing-and-authenticating-to-GitHub-desktop/installing-GitHub-desktop), follow these links and download the version for your Operating System.
+
 ![alt text](gh_desktop_start.png)
 ![alt text](gh_desktop_download.png)
 ![alt text](gh_desktop_download_for.png)
