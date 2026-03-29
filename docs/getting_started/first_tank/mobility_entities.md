@@ -12,16 +12,23 @@ The top dropdown is the engine type and the bottom dropdown is the engine model.
 
 Select "V12 Engine", "21.0L V12 Diesel", spawn and place them like so:
 
+{% include clip.html src="mobility_entities/engine.mp4" %}
+
 # Fuel
 Engines require fuel to function.
 
 Scroll down in the engine menu, select a 72x24x24 fuel tank, spawn and place them like so:
+
+{% include clip.html src="mobility_entities/fuel.mp4" %}
 
 
 # Gearboxes
 Gearboxes transfer power from the engine to the wheels.
 
 Select a transaxial CVT with these settings, spawn and place it down like so:
+
+{% include clip.html src="mobility_entities/gearbox.mp4" %}
+
 
 # Wheels
 
@@ -33,6 +40,8 @@ Tanks have treads, but in gmod we have to cope with wheels.
 Navigate to `models/sprops/trans/miscwheels/tank30.mdl` and spawn 3 wheels.
 
 Using PA, move a wheel to the middle of your baseplate. Then move the other 2 wheels to the corners.
+
+{% include clip.html src="mobility_entities/wheel_1.mp4" %}
 
 Now select "Plane - HitPos + HitNormal" from the PA tool menu.
 
