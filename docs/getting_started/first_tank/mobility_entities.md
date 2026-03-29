@@ -4,29 +4,24 @@ parent: Your First Tank
 nav_order: 3
 ---
 
-# Updating Entities
-Select the baseplate menu and change the size in the menu to be 96 wide, 192 long and 1 thick.
-
-Look at the baseplate entity and `LEFT CLICK`. This should update the baseplate by resizing it:
-
-All ACF entities support updating existing entities with different options.
-
 # Engines
 
 Engines power your vehicle. Larger engines are generally more powerful but take up more space.
 
-The top dropdown is the engine type. Select "V12 Engine".
-The bottom dropdown is the engine model. Select "21.0L V12 Diesel".
+The top dropdown is the engine type and the bottom dropdown is the engine model.
+
+Select "V12 Engine", "21.0L V12 Diesel", spawn and place them like so:
 
 # Fuel
 Engines require fuel to function.
 
-Scroll down in the engine menu and select a 72x24x24 fuel tank. Spawn two and move them like so.
+Scroll down in the engine menu, select a 72x24x24 fuel tank, spawn and place them like so:
+
 
 # Gearboxes
 Gearboxes transfer power from the engine to the wheels.
 
-Select a transaxial CVT with these settings.
+Select a transaxial CVT with these settings, spawn and place it down like so:
 
 # Wheels
 

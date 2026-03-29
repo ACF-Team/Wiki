@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% assign assets = '/assets/' | relative_url %}
+
 {{ content }}
 
 Last Modified: {{ page.last_modified_at | date: "%d-%b-%y" }}
