@@ -41,13 +41,15 @@ Navigate to `models/sprops/trans/miscwheels/tank30.mdl` and spawn 3 wheels.
 
 Using PA, move a wheel to the middle of your baseplate. Then move the other 2 wheels to the corners.
 
-{% include clip.html src="mobility_entities/wheel_1.mp4" %}
+{% include clip.html src="mobility_entities/wheel1.mp4" %}
 
 Now select "Plane - HitPos + HitNormal" from the PA tool menu.
 
 `LEFT CLICK` to place a plane on the center of the baseplate.
 
 Next, select "HitNormal" and `LEFT CLICK` the map wall such that the plane "cuts" along the length of the baseplate.
+
+{% include clip.html src="mobility_entities/wheel2.mp4" %}
 
 `RIGHT CLICK` the front wheel to select it.
 
@@ -56,3 +58,5 @@ Press `R` to open the advanced menu, select "Rotation Functions" and select "Mir
 Next, select "Plane 1" and `SHIFT + LEFT CLICK` the "Rotate Entity" button.
 
 This "Mirrors" the wheel to the other side of the tank. Do the same for the other two wheels.
+
+{% include clip.html src="mobility_entities/wheel3.mp4" %}
