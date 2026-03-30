@@ -55,4 +55,6 @@ Now the controls should be correct.
 
 The tank will move extremely quickly and may "spazz out".
 
-Once we add armor, it will be slower and we will need to tune the mobility.
+This is because it is "over torquing" the wheels (the engine is too strong for how light it is).
+
+Once we add armor this issue will go away, but we will need to retune the mobility.
