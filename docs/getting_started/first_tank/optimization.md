@@ -12,21 +12,21 @@ Many optimizations involve visual optimizations that allow us to use fewer physi
 # Wheels
 Using the tank track tool, you can use a few physical wheels to represent many visual wheels and a track.
 
-{% include image.html src="optimization/track_tool.mp4" width="25%" %}
+{% include clip.html src="optimization/track_tool.mp4" width="25%" %}
 
 Afterwards, color your wheels with alpha 0 to reduce their networking impact.
 
-{% include image.html src="optimization/alpha.mp4" width="25%" %}
+{% include clip.html src="optimization/alpha.mp4" width="25%" %}
 
 # Details
 Using the prop 2 mesh tool, you can use a single physical controller entity to represent many visual props.
 
-{% include image.html src="optimization/p2m_detail.mp4" width="25%" %}
+{% include clip.html src="optimization/p2m_detail.mp4" width="25%" %}
 
 # Armor
 Similar to details, you can optimize your armor.
 
-{% include image.html src="optimization/p2m_armor.mp4" width="25%" %}
+{% include clip.html src="optimization/p2m_armor.mp4" width="25%" %}
 
 # AIO And Chips
 If you use chips like E2/SF, consider offloading some of the work to an AIO controller.
