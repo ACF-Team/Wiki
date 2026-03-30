@@ -1,5 +1,5 @@
 ---
-title: Armor/Ammo
+title: Armor/Ammo (WIP)
 parent: Your First Tank
 nav_order: 8
 ---
@@ -37,6 +37,8 @@ Setting the ductility of a prop can change its health at the cost of weight, or 
 
 {% include clip.html src="armor_ammo/health.mp4" %}
 
+# Ammo
+
 # Armor Tool
 Using the ACF armor tool, you can set the thickness and ductility of a prop:
 
@@ -48,8 +50,3 @@ We will begin armoring the tank we worked on. If you want to follow along, downl
 {% include file.html src="before_armor.txt" text="Starting Dupe" %}
 
 Start with your side armor.
-
-{% include clip.html src="armor_ammo/setup1.mp4" %}
-
-
-# Ammo

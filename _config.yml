@@ -35,6 +35,8 @@ back_to_top: true
 back_to_top_text: "Back to top"
 
 aux_links:
+  ACF-3 Gmod Server:
+    - steam://connect/76.146.209.119:27017
   ACF-3 Discord:
     - https://discord.gg/jf4cwarPUG
   ACF-3 On Workshop:
