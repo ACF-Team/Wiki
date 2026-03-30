@@ -3,7 +3,7 @@ title: Wiki Contribution
 nav_order: 9
 ---
 
-The wiki is hosted through GitHub pages, with the source code located in a separate [GitHub](https://github.com/LengthenedGradient/Wiki) repository.
+The wiki is hosted through GitHub pages, with the source code located in a separate [GitHub](https://github.com/ACF-Team/Wiki) repository.
 
 1. Clone the repository
 2. Navigate to the root folder (it should contain `README.md`)
