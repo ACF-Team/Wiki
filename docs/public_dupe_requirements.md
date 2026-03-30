@@ -14,7 +14,7 @@ File size under 200KB
 - Using ACF's AIO controller instead of custom chips can help a lot here.
 - Fewer props/constraints cans somewhat help too.
 
-Entity count under 150
+Entity count under 150 ([Relevant Tutorial]({{site.base_url}}getting_started/first_tank/optimization.html/#details))
 - You can use [prop2mesh](https://steamcommunity.com/sharedfiles/filedetails/?id=2458909924) to turn props into efficient, visual only meshes.
   - Use these on detail props that do not serve as your main armor
   - Submaterial tool preserves texture
@@ -23,10 +23,10 @@ Entity count under 150
 Constraint count under 50
 - You can use [tank track tool](https://steamcommunity.com/sharedfiles/filedetails/?id=737640184) to have more visual wheels with less physical wheels.
 
-Physical entity count under 11
+Physical entity count under 11 ([Relevant Tutorial]({{site.base_url}}getting_started/first_tank/optimization.html/#wheels))
 - We recommend you have 3 physical wheels per side, and avoid idler/drive wheels if possible.
 
-Visually optimize
+Visually Optimize Armor ([Relevant Tutorial]({{site.base_url}}getting_started/first_tank/optimization.html/#armor))
 - Use prop to mesh on your main armor and color them with alpha 0.
 - Unlike with the details, you should not remove these props (they need to be physical)
 
