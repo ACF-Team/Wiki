@@ -23,6 +23,11 @@ Uncheck the "Disable Alt E" option and update the entity. Now it should work.
 
 {% include clip.html src="baseplate_aio/alt_e.mp4" %}
 
+{: .highlight}
+> The orange line with "North" at the end should be aligned with your baseplate's forwards direction (red line).
+> 
+> It is good practice to always build north. AIO controllers (below) require it.
+
 # All In One (AIO) Controllers
 AIO Controllers act like the brains of a vehicle. They are not required, but make it significantly easier for a new user to make a working vehicle.
 
