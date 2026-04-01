@@ -1,7 +1,21 @@
 ---
 title: Hooks
-parent: Making Extensions
+parent: For Server Owners
 nav_order: 1
+---
+
+{: .warning}
+Some of these may be out of date. Please let us know.
+
+You can interface with the ACF addon using [hooks](https://wiki.facepunch.com/gmod/hook.Add).
+
+For example, you can prevent fuel tanks from refuelling:
+```lua
+hook.Add("ACF_CanRefuel", "DisableRefuelling", function()
+    return false
+end)
+```
+
 ---
 
 ## Shared Hooks
