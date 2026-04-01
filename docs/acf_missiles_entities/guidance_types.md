@@ -1,6 +1,6 @@
 ---
 title: Guidance Types (WIP)
-parent: ACF Missiles Entities
+parent: ACF Missiles Tutorials
 nav_order: 2
 ---
 

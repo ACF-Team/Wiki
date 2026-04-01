@@ -1,6 +1,6 @@
 ---
 title: Missile Types (WIP)
-parent: ACF Missiles Entities
+parent: ACF Missiles Tutorials
 nav_order: 1
 ---
 

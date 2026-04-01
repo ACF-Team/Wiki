@@ -20,7 +20,7 @@ Entity count under 150 ([Relevant Tutorial]({{site.base_url}}getting_started/fir
   - Submaterial tool preserves texture
   - Remove these props afterwards. Their physical impact disappears while they remain visual.
 
-Constraint count under 50
+Constraint count under 50 ([Relevant Tutorial]({{site.base_url}}getting_started/first_tank/optimization.html/#wheels))
 - You can use [tank track tool](https://steamcommunity.com/sharedfiles/filedetails/?id=737640184) to have more visual wheels with less physical wheels.
 
 Physical entity count under 11 ([Relevant Tutorial]({{site.base_url}}getting_started/first_tank/optimization.html/#wheels))

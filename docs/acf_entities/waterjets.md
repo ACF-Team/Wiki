@@ -1,6 +1,6 @@
 ---
 title: Waterjets (WIP)
-parent: ACF Entities
+parent: ACF Tutorials
 nav_order: 1
 ---
 

@@ -33,3 +33,6 @@ Your dupes may need to be modified to include ACF crew entities, which were adde
 
 # I can't save my dupes properly with the Duplicator tool!
 Using the Duplicator tool with ACF is very hit or miss due to the fact that this tool lacks support for many things used by a typical ACF build. We generally recommend that you use [Advanced Duplicator 2](https://steamcommunity.com/sharedfiles/filedetails/?id=773402917) instead, as it properly supports everything that ACF has to offer.
+
+# The AIO controller doesn't work in singleplayer
+Due to how single player servers work, prediction (used by client side key detection) breaks. Certain AIO features like switching ammo types will not work in pure singleplayer. It should work fine for local multiplayer (peer to peer) or srcds (servers you can find in the server browser)

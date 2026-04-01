@@ -1,6 +1,6 @@
 ---
 title: Radars (WIP)
-parent: ACF Missiles Entities
+parent: ACF Missiles Tutorials
 nav_order: 4
 ---
 
