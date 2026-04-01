@@ -1,5 +1,5 @@
 ---
-title: Countermeasures (WIP)
+title: Countermeasures
 parent: ACF Missiles Tutorials
 nav_order: 3
 ---
