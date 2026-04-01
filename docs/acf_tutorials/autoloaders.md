@@ -1,5 +1,5 @@
 ---
-title: Autoloaders (WIP)
+title: Autoloaders
 parent: ACF Tutorials
 nav_order: 1
 ---
