@@ -1,5 +1,5 @@
 ---
-title: Ground Loaders (WIP)
+title: Ground Loaders
 parent: ACF Missiles Tutorials
 nav_order: 6
 ---
