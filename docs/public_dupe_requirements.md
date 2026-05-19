@@ -37,8 +37,7 @@ Follow ACF guidelines and restrictions
 Please do not use imported obj models.
 
 Send information per dupe
-- Send a screenshot of each dupe (preferably a 256x256 pixel jpeg image)
-  - Alternatively submitting a screenshot is fine, but place your tank within the centered box of the screen.
+- Send a 256x256 pixel jpeg screenshot of each dupe
 - Send the weight and cost of your dupe (use R with the armor tool)
 - Send the type of your dupe (MBT, LT, AA, APC, ATGM, IFV, Light Tank, SPG, Transport, Fighter)
 
