@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const CROP_SIZE = 256;
   const JPEG_QUALITY = 0.85;
   const NOTES_MAX = 200;
+  const MAX_DUPE_BYTES = 200 * 1024;
 
   // ---- Element refs -------------------------------------------------------
   const dupeList = document.getElementById('dupe-list');
@@ -62,7 +63,8 @@ document.addEventListener('DOMContentLoaded', () => {
     numberInRange(data.weight, WEIGHT) &&
     numberInRange(data.cost, COST) &&
     data.imageBlob &&
-    data.dupeFile;
+    data.dupeFile &&
+    data.dupeFile.size <= MAX_DUPE_BYTES;
 
   function updateGenerateButtonState() {
     const cards = Array.from(dupeList.children);
@@ -257,6 +259,16 @@ document.addEventListener('DOMContentLoaded', () => {
     packFileInput.addEventListener('change', () => {
       const file = packFileInput.files?.[0];
       if (!file) return;
+      if (file.size > MAX_DUPE_BYTES) {
+        card._dupeFile = null;
+        packFileInput.value = '';
+        packNamePill.textContent = 'No dupe file selected';
+        updateGenerateButtonState();
+        // Set after updateGenerateButtonState so the specific size error
+        // isn't overwritten by the generic "incomplete card" message.
+        setStatus(`"${file.name}" is ${(file.size / 1024).toFixed(0)}KB — dupe files must be under 200KB.`, '#d9534f');
+        return;
+      }
       card._dupeFile = file;
       packNamePill.textContent = file.name;
       updateGenerateButtonState();
