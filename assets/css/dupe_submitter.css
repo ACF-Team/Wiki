@@ -1,0 +1,53 @@
+/* Styles extracted from public_dupe_submitter.md to keep markup clean */
+.upload-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.upload-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  user-select: none;
+  font-size: 0.95em;
+}
+
+.upload-btn input { display: none; }
+
+.upload-btn.screenshot { background: #2d6cdf; color: #fff; border-color: #2459b8; }
+.upload-btn.dupefile { background: #2b8a3e; color: #fff; border-color: #216a2e; }
+
+.file-pill {
+  padding: 4px 8px;
+  border: 1px solid #444;
+  border-radius: 999px;
+  background: rgba(255,255,255,0.04);
+  font-size: 0.9em;
+}
+
+.field-block { margin-top: 8px; }
+.field-block label { display: block; margin-bottom: 4px; }
+.field-block textarea { width: 100%; min-height: 84px; resize: vertical; box-sizing: border-box; }
+.field-hint { display: block; margin-top: 4px; font-size: 0.85em; opacity: 0.85; }
+
+/* Dupe card container */
+.dupe-fieldset { border:1px solid #ccc; padding:8px; margin:8px 0; }
+
+.preview-wrap { margin-top:.5em; }
+
+/* Group layout for the screenshot / dupe-file boxes */
+.groups-row { display:flex; flex-wrap:wrap; align-items:flex-start; gap:12px; }
+.screenshot-group, .dupefile-group { border:1px solid #ccc; padding:8px; display:flex; flex-direction:column; align-items:flex-start; gap:.5em; }
+.screenshot-group .controls, .dupefile-group .controls { display:flex; align-items:center; gap:.75em; }
+.screenshot-group .crop-row { margin-top:.25em; }
+.remove-row { margin-top:.5em; }
+
+/* Make sure the crop preview image fits */
+.preview-wrap img { max-width: 100%; height: auto; }

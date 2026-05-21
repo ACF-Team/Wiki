@@ -6,7 +6,7 @@ nav_order: 5
 # PUBLIC DUPE BROWSER SUBMISSION REQUIREMENTS
 
 {: .notice}
-We also expect all submissions for the public dupe browser to follow these.
+We expect all submissions for the public dupe browser to follow these.
 
 Here are some requirements and instructions to fulfill them. Limits are not super strict but please try to meet them:
 File size under 200KB
@@ -36,11 +36,54 @@ Follow ACF guidelines and restrictions
 
 Please do not use imported obj models.
 
-Send information per dupe
-- Send a 256x256 pixel jpeg screenshot of each dupe
-- Send the weight and cost of your dupe (use R with the armor tool)
-- Send the type of your dupe (MBT, LT, AA, APC, ATGM, IFV, Light Tank, SPG, Transport, Fighter)
+The dupe should pass all the autotests (all green) unless there is a good reason. For example, Wheeled vehicles can't have invisible wheels because they need to be networked.
 
-Send Pack information
-- Send the author's name and their discord username
-- Send the dupe pack's name (even if it's a single dupe, you may plan more in the future.)
+---
+
+## Autotester
+
+Hold `C + RIGHT CLICK` on an acf baseplate, then click the "Autotester" button.
+
+{% include image.html src="public_dupe_requirements/cmenu.png" width="50%" %}
+
+This opens up the menu below:
+
+{% include image.html src="public_dupe_requirements/autotester.png" width="50%" %}
+
+Click the "Run" or "Run Category" options to run the tests.
+
+Some options have a "Fix" button available, which will attempt to fix the issue. Run at your own risk.
+
+---
+
+## Submit a Dupe Pack (Client-side)
+
+Fill in the information as instructed. To submit either:
+- Make a PR with a similar structure to the other dupes
+- Submit in the `community-resources` channel with this zip.
+
+<!-- Cropper CSS and local submitter CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropperjs@1.5.13/dist/cropper.min.css">
+<link rel="stylesheet" href="{{ '/assets/css/dupe_submitter.css' | relative_url }}">
+
+<div id="dupe-submitter">
+  <h2>Pack Information</h2>
+  <label>Pack name: <input id="pack-name" type="text"></label>
+  <label>Author: <input id="author" type="text"></label>
+  <label>Contact (Discord): <input id="contact" type="text"></label>
+
+  <h2>Dupes</h2>
+  <div id="dupe-list"></div>
+  <button id="add-dupe">Add Dupe</button>
+
+  <div style="margin-top:1em;">
+    <button id="generate">Download ZIP (pack.txt + JPEGs)</button>
+  </div>
+
+  <p id="status" style="margin-top:.5em;color:green;"></p>
+</div>
+
+<!-- Scripts: Cropper, JSZip, then local submitter script -->
+<script src="https://cdn.jsdelivr.net/npm/cropperjs@1.5.13/dist/cropper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/jszip@3.10.1/dist/jszip.min.js"></script>
+<script src="{{ '/assets/js/dupe_submitter.js' | relative_url }}"></script>
