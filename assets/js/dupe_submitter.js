@@ -309,13 +309,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const dupeRows = Array.from(dupeList.children).map((card, i) => {
       const d = readCard(card);
-      const imgName = `${packId}_dupe${i + 1}.jpg`;
-      const dupeFileName = d.dupeFile ? d.dupeFile.name : `${packId}_dupe${i + 1}.dupe`;
+      const dupePath = pathSafe(d.name) || `${packId}_dupe${i + 1}`;
+      const imgName = `${dupePath}.jpg`;
+      const dupeFileName = `${dupePath}.txt`;
 
       if (d.imageBlob) zip.file(`images/${imgName}`, d.imageBlob);
       if (d.dupeFile) zip.file(`dupes/${dupeFileName}`, d.dupeFile);
 
-      return `(${sqlText(pathSafe(d.name))}, ${sqlText(d.name)}, ${sqlNumber(d.cost)}, ` +
+      return `(${sqlText(dupePath)}, ${sqlText(d.name)}, ${sqlNumber(d.cost)}, ` +
         `${sqlNumber(d.weight)}, ${sqlText(d.type)}, ${sqlText(d.mobility)}, ` +
         `${sqlText(packId)}, ${sqlMultiline(d.notes)})`;
     });
