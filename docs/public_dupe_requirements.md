@@ -56,11 +56,14 @@ Some options have a "Fix" button available, which will attempt to fix the issue.
 
 ---
 
-## Submit a Dupe Pack (Client-side)
+## Dupe pack submission tool
 
-Fill in the information as instructed. To submit either:
-- Make a PR with a similar structure to the other dupes
-- Submit in the `community-resources` channel with this zip.
+{: .notice}
+> Nothing you submit leaves your browser. Save your progress elsewhere.
+>
+> Fill in the information as instructed. To submit either:
+> - Make a PR with a similar structure to the other dupes
+> - Submit in the `community-resources` channel with this zip.
 
 <!-- Cropper CSS and local submitter CSS -->
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cropperjs@1.5.13/dist/cropper.min.css">

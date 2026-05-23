@@ -11,7 +11,7 @@ Turret entities are the primary method for aiming things on your vehicle.
 
 Most tanks have a vertical turret ring parented to a horizontal turret ring parented to a baseplate. Armor is then parented onto the relevant joint.
 
-{% include clip.html src="turrets_guns/setup.mp4" %}
+{% include clip.html src="turrets_guns/setup1.mp4" %}
 
 {% include clip.html src="turrets_guns/setup2.mp4" %}
 
