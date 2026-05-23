@@ -68,7 +68,7 @@ Fill in the information as instructed. To submit either:
 
 <div id="dupe-submitter">
   <h2>Pack Information</h2>
-  <label>Pack name: <input id="pack-name" type="text"></label>
+  <label>Pack name: <input id="pack-name" type="text" maxlength="15"></label>
   <label>Author: <input id="author" type="text"></label>
   <label>Contact (Discord): <input id="contact" type="text"></label>
 

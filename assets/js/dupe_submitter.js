@@ -18,6 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const CROP_SIZE = 256;
   const JPEG_QUALITY = 0.85;
   const NOTES_MAX = 200;
+  const PACK_NAME_MAX = 15;
   const MAX_DUPE_BYTES = 200 * 1024;
 
   // ---- Element refs -------------------------------------------------------
@@ -70,9 +71,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const cards = Array.from(dupeList.children);
     const packName = packNameInput.value.trim();
     const author = authorInput.value.trim();
+    const packNameValid = packName.length > 0 && packName.length <= PACK_NAME_MAX;
 
     const cardsComplete = cards.length > 0 && cards.every((c) => cardIsComplete(readCard(c)));
-    const allComplete = packName && author && cardsComplete;
+    const allComplete = packNameValid && author && cardsComplete;
     generateBtn.disabled = !allComplete;
 
     const cardRules = `Each dupe requires name, type, mobility, weight (tons ${WEIGHT.min}-${WEIGHT.max}), ` +
@@ -80,8 +82,8 @@ document.addEventListener('DOMContentLoaded', () => {
       `Description is optional.`;
 
     if (!allComplete) {
-      if (!packName || !author) {
-        setStatus('Pack name and Author are required. Contact is optional.', '#d9534f');
+      if (!packNameValid || !author) {
+        setStatus(`Pack name must be 1-${PACK_NAME_MAX} characters and Author is required. Contact is optional.`, '#d9534f');
       } else if (cards.length === 0) {
         setStatus(`Add at least one dupe. ${cardRules}`, '#d9534f');
       } else {
@@ -107,7 +109,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const normalizeNewlines = (s) => stripControl(s).replace(/\r\n?/g, '\n');      // multi-line description
 
   const sqlText = (s) => sqlQuote(flatten(s));
-  const sqlMultiline = (s) => `'${normalizeNewlines(s).replace(/'/g, "''")}'`;   // newlines preserved
+  const sqlMultiline = (s) => `'${normalizeNewlines(s).replace(/'/g, '')}'`;     // newlines preserved
   const sqlNumber = (s) => {
     const n = Number.parseFloat(String(s).trim());
     return Number.isFinite(n) ? String(n) : '0';
@@ -301,7 +303,7 @@ document.addEventListener('DOMContentLoaded', () => {
   async function generateZip() {
     setStatus('Generating...');
 
-    const packName = packNameInput.value || 'pack';
+    const packName = packNameInput.value.trim() || 'pack';
     const packId = pathSafe(packName) || 'pack';
     const zip = new JSZip();
 
