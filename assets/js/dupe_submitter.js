@@ -166,6 +166,7 @@ document.addEventListener('DOMContentLoaded', () => {
               <span class="file-pill dupe-image-name">No screenshot selected</span>
             </div>
             <div class="crop-row"><button class="crop-save">Crop &amp; Save ${CROP_SIZE}</button></div>
+            <div class="preview-wrap"></div>
           </div>
           <div class="upload-group dupefile-group">
             <div class="controls">
@@ -174,7 +175,6 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
           </div>
         </div>
-        <div class="preview-wrap"></div>
         <div class="upload-row remove-row">
           <button class="remove-dupe">Remove Dupe</button>
         </div>
