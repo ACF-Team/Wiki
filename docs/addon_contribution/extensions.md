@@ -13,5 +13,16 @@ Just specify the files as if you were working in the main repository, e.g.:
 - Materials still go under `materials/`
 - Models still go under `models/`
 
+Your addon should have a globals file at `lua/acf/core/<addon name>_globals.lua` with the following snippet:
+```lua
+do -- Update checker
+    hook.Add("ACF_OnLoadAddon", "ACF Comedic Update Checker", function()
+        -- USE YOUR ORG NAME AND ADDON NAME INSTEAD.
+        ACF.AddRepository("ACF-Team", "ACF-3-Comedic")
+        hook.Remove("ACF_OnLoadAddon", "ACF Comedic Update Checker")
+    end)
+end
+```
+
 Here are some examples of ACF-3 extensions:
-- `https://github.com/FLINT-IX/ACP`
+- https://github.com/ACF-Team/ACF-3-Comedic
