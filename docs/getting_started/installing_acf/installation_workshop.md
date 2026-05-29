@@ -4,17 +4,24 @@ parent: Installing ACF
 nav_order: 1
 ---
 
-{: .notice }
-If you are just trying to get started, this is the fastest option.
-This is only updated from our `main` branch.
-`main` tends to be more stable, but updates are much slower.
+{: .notice} 
+This is the fastest and simplest way to get started with ACF. 
+The Workshop version of ACF updates from the `main` branch, our stable release branch. If you are looking for one of the development branches, see [Installing With GitHub Desktop](installation_github_desktop.md)
 
-You can find [ACF-3](https://steamcommunity.com/sharedfiles/filedetails/?id=3248769144) and [ACF-3-Missiles](https://steamcommunity.com/sharedfiles/filedetails/?id=3248769787) on the workshop by searching up "acf" in the search bar:
+You can find ACF on the Steam Workshop by clicking the button below...
 
-![alt text](workshop_search.png)
+[<img title="Download from the Steam Workshop" src="workshop-custom-logo-100px.png" alt="Download from the Steam Workshop">](https://steamcommunity.com/sharedfiles/filedetails/?id=3248769144)
 
-Click on the addon and then click "Subscribe":
+...or by searching "ACF" in the Workshop search bar and clicking on **[ACF] Armored Combat Framework** by **ACF-3 Team**.
 
-![alt text](workshop_page.png)
+![alt text](workshop-search.png)
 
-When asked to install "Wiremod" or "Contraption Framework", press "Yes".
+Click on the addon, then click **Subscribe**.
+
+![alt text](workshop-subs.png)
+
+A pop-up may appear asking about **Additional Required Items**. Click **Subscribe to All**. These additional addons <u>must be downloaded for ACF to function.</u> 
+
+![Additional Required Items pop-up box.](workshop-depends.png)
+
+ACF will then install. You may have to restart Garry's Mod after the download finishes.
